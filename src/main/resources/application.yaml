@@ -1,0 +1,11 @@
+server:
+  port: 8282
+spring:
+  application:
+    name: appointment-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7449/eureka
+
